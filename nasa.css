@@ -1,0 +1,480 @@
+
+
+
+ 
+
+
+
+
+
+
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    color: white;
+}
+
+.nasa-logo > img {
+    margin-left: 300px;
+    height: 60px;
+}
+
+.box {
+    text-align: left;
+    display: inline;
+}
+
+.box-one {
+    display: inline-flex;
+}
+
+.back {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2025/04/51668419458-b58f2a0c6a-o-2-1.jpg?resize=1536,1024);
+    height: 700px;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.backgroundd {
+    padding-top: 70px;
+    padding-left: 40px;
+    color: #fff;
+}
+
+.backgroundd h1 {
+    font-size: 50px;
+}
+
+.backgroundd p {
+    font-size: 22px;
+}
+
+.but {
+    background-color: brown;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.arrow {
+    padding-top: 20px;
+}
+.arrow i{
+    background: red;
+   width: 50px;
+   height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+ 
+ box-sizing: inherit;
+}
+
+/* .material-symbols-outlined {
+    background-color: brown;
+    padding: 4px;
+    border-radius: 50%;
+} */
+
+
+.cardd0 h1 {
+    text-align: left;
+}
+
+.cardd1 {
+    height: 400px;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2025/04/nhq202504200003.jpg?resize=1024,578);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.cardd1 h5 {
+    color: aliceblue;
+    margin: 20px;
+}
+
+.cardd1 p {
+    color: white;
+    padding: 115px;
+    font-size: 30px;
+    text-align: left;
+    margin: 50px auto;
+}
+
+.cardd2 {
+    height: 400px;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2025/04/spacewalk-4.jpg?resize=1024,683);
+    background-position: 50%;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.cardd2 h5 {
+    color: #fff;
+    margin: 20px;
+}
+
+.cardd2 p {
+    color: #ffff;
+    padding: 60px;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.cardd3 {
+    height: 200px;
+    background-image: url(https://images-assets.nasa.gov/image/AFRC2025-0041-27/AFRC2025-0041-27~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint);
+    background-position: 25%;
+    background-size: cover;
+    color: aliceblue;
+    
+}
+
+.cardd3 h5 {
+    color: aliceblue;
+    margin: 10px;
+}
+
+.cardd3 p {
+    color: white;
+    padding: 60px;
+    font-size: 30px;
+}
+
+.cardd4 {
+    height: 200px;
+    background-image: url(https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2025/perseverance-rover-updates/Mars_Perseverance_ZR0_1472_0797612737_331EBY_N0711018ZCAM04115_1100LMJ.png);
+    background-position: 25%;
+    background-size: cover;
+    color: rgb(31, 29, 29);
+
+}
+
+.cardd4 h5 {
+    color: white;
+    margin: 20px;
+}
+
+.cardd4 p {
+    color: white;
+    padding: 50px;
+    font-size: 15px;
+}
+
+.span1 h1 {
+    text-align: left;
+}
+
+.live {
+    background-color: brown;
+    padding: 1px 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.full {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/11/nasa-holiday-fireplace-key-art-r1-horizontal-program-tile-16-9-without-title.jpg?resize=2000,1125);
+    height: 600px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.space {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 200px;
+}
+
+.para {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.f {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.g {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.human {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.human1,
+.human2,
+.human3,
+.human4 {
+    width: 20%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.human1 {
+    background-image: url(https://images-assets.nasa.gov/image/iss063e053998/iss063e053998~large.jpg?w=1920&h=1280&fit=crop&crop=faces%2Cfocalpoint);
+}
+
+.human2 {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2023/02/edu_srch_microsofts_hacking_stem.jpg);
+}
+
+.human3 {
+    background-image: url(https://images-assets.nasa.gov/image/iss041e012095/iss041e012095~large.jpg?w=1920&h=1277&fit=crop&crop=faces%2Cfocalpoint);
+}
+
+.human4 {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2023/01/meir-2.png);
+}
+
+.ha1 {
+    margin-top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    justify-content: flex-start;
+}
+
+.earth {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2023/03/187_1003705_americas_dxm.png);
+}
+
+.today {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.to {
+    height: 550px;
+    width: 30%;
+}
+
+.day {
+    height: 550px;
+    width: 800px;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/12/iss072e189028orig.jpg?resize=2000,1333);
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image1 {
+    width: 30%;
+    height: 200px;
+}
+
+.nasalog {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.bt{
+    height: 45px;
+    width: 140px;
+    margin: 5px;
+    font-size: 20px;
+    color: #000;
+    background: red;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+    outline: none;
+} 
+.bt:hover{
+    color: #000;
+    background: #2d6585;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .nasa-logo > img {
+        margin-left: 150px;
+        height: 50px;
+    }
+
+    .box {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .backgroundd h1 {
+        font-size: 40px;
+    }
+
+    .backgroundd p {
+        font-size: 18px;
+    }
+
+    .cardd1, .cardd2, .cardd3, .cardd4 {
+        height: 350px;
+    }
+
+    .space {
+        font-size: 30px;
+    }
+
+    .f {
+        font-size: 25px;
+    }
+
+    .g {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nasa-logo > img {
+        margin-left: 100px;
+        height: 40px;
+    }
+
+    .box-one {
+        display: block;
+        text-align: center;
+    }
+
+    .backgroundd h1 {
+        font-size: 30px;
+    }
+
+    .backgroundd p {
+        font-size: 16px;
+    }
+
+    .cardd1, .cardd2, .cardd3, .cardd4 {
+        height: 300px;
+    }
+
+    .human {
+        flex-direction: column;
+    }
+
+    .human1, .human2, .human3, .human4 {
+        width: 80%;
+        height: 250px;
+        margin: 10px auto;
+    }
+
+    .live {
+        font-size: 12px;
+    }
+
+    .space {
+        font-size: 25px;
+    }
+
+    .f {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nasa-logo > img {
+        margin-left: 50px;
+        height: 30px;
+    }
+
+    .backgroundd h1 {
+        font-size: 25px;
+    }
+
+    .backgroundd p {
+        font-size: 14px;
+    }
+
+    .cardd1, .cardd2, .cardd3, .cardd4 {
+        height: 250px;
+    }
+
+    .human1, .human2, .human3, .human4 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .space {
+        font-size: 20px;
+    }
+
+    .f {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 320px) {
+    .nasa-logo > img {
+        margin-left: 20px;
+        height: 25px;
+    }
+
+    .backgroundd h1 {
+        font-size: 20px;
+    }
+
+    .backgroundd p {
+        font-size: 12px;
+    }
+
+    .cardd1, .cardd2, .cardd3, .cardd4 {
+        height: 200px;
+    }
+
+    .human1, .human2, .human3, .human4 {
+        width: 100%;
+        height: 180px;
+    }
+
+    .space {
+        font-size: 18px;
+    }
+
+    .f {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+ 
